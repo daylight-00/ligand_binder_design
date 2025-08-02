@@ -1,0 +1,3 @@
+lmpnn,diffusion,diffusion,placer,placer,af3,af3,af3,af3,af3,boltz,boltz,boltz,boltz,boltz
+tag,id,len,rmsd,plddt,ptm,iptm,ca_rmsd,sc_rmsd,lig_rmsd,ptm,iptm,ca_rmsd,sc_rmsd,lig_rmsd
+result_24_packed_7_1,result_24_packed_7_1,112,1.3752216594783884,0.8631024690050828,0.87,0.83,1.3737988,1.1012696,2.2565647156218396,0.907012939453125,0.8166835904121399,1.0946158,1.0164473,3.3138221373354875

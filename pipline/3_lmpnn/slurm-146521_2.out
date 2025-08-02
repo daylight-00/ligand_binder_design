@@ -1,0 +1,241 @@
+Sat Aug 2 09:15:54 PM KST 2025
+[INFO] Job Information
+=============================================
+[INFO] Job Name       : lmpnn
+[INFO] Job ID         : 146524
+[INFO] Submit Dir     : /home/hwjang/aipd/noahs_ark/piplines/3_lmpnn
+[INFO] Partition      : gpu-farm
+[INFO] Node List      : node26
+[INFO] Nodes          : 1
+[INFO] CPUs per Task  : 4
+[INFO] Memory (MB)    : 
+[INFO] User           : hwjang
+[INFO] Work Dir       : /home/hwjang/aipd/noahs_ark/piplines/3_lmpnn
+[INFO] Tasks per Node : 1
+[INFO] Dependency     : 
+[INFO] Allocated GPUs : 3
+---------------------------------------------
+[INFO] Job allocated on node(s): node26
+[INFO] Job running on: node26
+=============================================
+
+Designing protein from this path: ../1_diffusion/output/result_43.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106', 'A107', 'A108', 'A109', 'A110', 'A111', 'A112', 'A113', 'A114', 'A115', 'A116', 'A117']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_10.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_28.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106', 'A107', 'A108', 'A109', 'A110', 'A111', 'A112', 'A113', 'A114', 'A115', 'A116', 'A117', 'A118', 'A119', 'A120', 'A121', 'A122', 'A123', 'A124']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_17.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106', 'A107', 'A108', 'A109', 'A110', 'A111', 'A112', 'A113', 'A114', 'A115', 'A116', 'A117', 'A118', 'A119', 'A120', 'A121', 'A122', 'A123']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_57.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_53.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106', 'A107', 'A108']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_30.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_52.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106', 'A107', 'A108', 'A109', 'A110', 'A111', 'A112', 'A113']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+Designing protein from this path: ../1_diffusion/output/result_55.pdb
+These residues will be redesigned:  ['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'A33', 'A34', 'A35', 'A36', 'A37', 'A38', 'A39', 'A40', 'A41', 'A42', 'A43', 'A44', 'A45', 'A46', 'A47', 'A48', 'A49', 'A50', 'A51', 'A52', 'A53', 'A54', 'A55', 'A56', 'A57', 'A58', 'A59', 'A60', 'A61', 'A62', 'A63', 'A64', 'A65', 'A66', 'A67', 'A68', 'A69', 'A70', 'A71', 'A72', 'A73', 'A74', 'A75', 'A76', 'A77', 'A78', 'A79', 'A80', 'A81', 'A82', 'A83', 'A84', 'A85', 'A86', 'A87', 'A88', 'A89', 'A90', 'A91', 'A92', 'A93', 'A94', 'A95', 'A96', 'A97', 'A98', 'A99', 'A100', 'A101', 'A102', 'A103', 'A104', 'A105', 'A106']
+These residues will be fixed:  []
+The number of ligand atoms parsed is equal to: 19
+Type: O, Coords [-0.123  1.045  2.389], Mask 1
+Type: O, Coords [ 0.09   3.814 -1.244], Mask 1
+Type: N, Coords [ 0.05   1.487 -1.051], Mask 1
+Type: N, Coords [-0.     2.713  0.798], Mask 1
+Type: C, Coords [ 0.004  0.465 -0.005], Mask 1
+Type: C, Coords [-1.28  -0.375 -0.03 ], Mask 1
+Type: C, Coords [ 1.278 -0.379 -0.109], Mask 1
+Type: C, Coords [-0.045  1.407  1.221], Mask 1
+Type: C, Coords [ 0.052  2.794 -0.57 ], Mask 1
+Type: C, Coords [-1.501 -1.34   0.952], Mask 1
+Type: C, Coords [ 1.496 -1.188 -1.227], Mask 1
+Type: C, Coords [-2.226 -0.173 -1.035], Mask 1
+Type: C, Coords [ 2.23  -0.344  0.914], Mask 1
+Type: C, Coords [-2.668 -2.103  0.93 ], Mask 1
+Type: C, Coords [ 2.657 -1.956 -1.322], Mask 1
+Type: C, Coords [-3.393 -0.936 -1.058], Mask 1
+Type: C, Coords [ 3.39  -1.112  0.819], Mask 1
+Type: C, Coords [-3.614 -1.901 -0.075], Mask 1
+Type: C, Coords [ 3.604 -1.918 -0.299], Mask 1
+Packing side chains...
+
+=============================================
+Sat Aug 2 09:16:04 PM KST 2025
+[INFO] Job finished in 10 seconds
