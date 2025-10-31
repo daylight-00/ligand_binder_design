@@ -9,7 +9,7 @@ This repository provides a simple pipeline for ligand binder design using diffus
 The pipeline consists of 9 main steps:
 
 1. **Parameters Setup** (`0_params/`) - Ligand preparation and parameter files
-2. **Backbone Generation** (`1_diffusion/`) - Structure generation using RFDiffusion
+2. **Backbone Generation** (`1_diffusion/`) - Structure generation using RFdiffusion
 3. **Backbone Filtering** (`2_backbone_filter/`) - DSSP and SASA-based filtering
 4. **Sequence Design** (`3_lmpnn/`) - Sequence generation using LigandMPNN
 5. **Rosetta Scoring** (`4_rscore_filter/`) - Energy-based filtering
@@ -22,14 +22,14 @@ The pipeline consists of 9 main steps:
 
 - **Automated Pipeline**: End-to-end workflow from ligand input to validated binders
 - **Multiple Validation Steps**: Combines geometric, energetic, and structural filters
-- **Modern AI Tools**: Utilizes RFDiffusion, LigandMPNN, AlphaFold3, and Boltz
+- **Modern AI Tools**: Utilizes RFdiffusion, LigandMPNN, AlphaFold3, and Boltz
 - **Scalable**: Designed for SLURM-based cluster environments
 - **Performance Optimized**: Multiprocessing enabled for DSSP/SASA/Rosetta scoring and RMSD calculations
 - **Enhanced RMSD Analysis**: Biopython-based structure handling with RDKit for ligand symmetry-aware RMSD calculations
 
 ## Requirements
 
-- RFDiffusion All-Atom
+- RFdiffusion All-Atom
 - LigandMPNN
 - Rosetta
 - AlphaFold3
