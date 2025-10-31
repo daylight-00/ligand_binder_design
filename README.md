@@ -1,10 +1,7 @@
 # Simple Pipeline for Ligand Binder Design
 
-**Author:** David Hyunyoo Jang  
-**Affiliation:** [Artificial Intelligence Protein Design Lab](https://sites.google.com/view/aipdlab)  
-**Date:** July 2025
+**Developed at [Artificial Intelligence Protein Design Lab](https://sites.google.com/view/aipdlab)**
 
-## Overview
 This repository provides a simple pipeline for ligand binder design using diffusion models. The pipeline integrates multiple state-of-the-art tools to generate and validate protein binders for small molecule ligands.
 
 ## Pipeline Steps
@@ -50,11 +47,3 @@ The pipeline consists of 9 main steps:
 1. Place your ligand files in the `0_params/` directory
 2. Run each pipeline step sequentially using the provided `run.sh` scripts
 3. Results will be filtered at each step, with final candidates in `8_rmsd_filter/`
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Gyu Rie Lee - Original concept and supervision
