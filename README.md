@@ -1,12 +1,12 @@
-# Simple Pipeline for Ligand Binder Design
+# Simple Workflow for Ligand Binder Design
 
 **Developed at [Artificial Intelligence Protein Design Lab](https://sites.google.com/view/aipdlab)**
 
-This repository provides a simple pipeline for ligand binder design using diffusion models. The pipeline integrates multiple state-of-the-art tools to generate and validate protein binders for small molecule ligands.
+This repository provides a reproducible workflow for ligand binder design using diffusion models. The workflow integrates multiple state-of-the-art tools to generate and validate protein binders for small molecule ligands.
 
-## Pipeline Steps
+## Workflow Steps
 
-The pipeline consists of 9 main steps:
+The workflow consists of 9 sequential steps:
 
 1. **Parameters Setup** (`0_params/`) - Ligand preparation and parameter files
 2. **Backbone Generation** (`1_diffusion/`) - Structure generation using RFdiffusion
@@ -20,7 +20,7 @@ The pipeline consists of 9 main steps:
 
 ## Features
 
-- **Automated Pipeline**: End-to-end workflow from ligand input to validated binders
+- **Reproducible Workflow**: Complete protocol from ligand input to validated binders
 - **Multiple Validation Steps**: Combines geometric, energetic, and structural filters
 - **Modern AI Tools**: Utilizes RFdiffusion, LigandMPNN, AlphaFold3, and Boltz
 - **Scalable**: Designed for SLURM-based cluster environments
@@ -40,10 +40,11 @@ The pipeline consists of 9 main steps:
 - Python 3.8+
 - PyArrow (for parquet file handling)
 
-**Note**: This pipeline uses parquet file format to handle double headers efficiently. Parquet files can be viewed and analyzed using VSCode's [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) extension.
+**Note**: This workflow uses parquet file format to handle double headers efficiently. Parquet files can be viewed and analyzed using VSCode's [Data Wrangler](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.datawrangler) extension.
 
 ## Usage
 
 1. Place your ligand files in the `0_params/` directory
-2. Run each pipeline step sequentially using the provided `run.sh` scripts
-3. Results will be filtered at each step, with final candidates in `8_rmsd_filter/`
+2. Run each workflow step sequentially using the provided `run.sh` scripts
+3. Review and filter results at each step as needed
+4. Final candidates will be available in `8_rmsd_filter/`
