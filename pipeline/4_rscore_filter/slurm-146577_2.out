@@ -1,0 +1,674 @@
+Sat Aug 2 09:40:07 PM KST 2025
+[INFO] Job Information
+=============================================
+[INFO] Job Name       : rscore
+[INFO] Job ID         : 146580
+[INFO] Submit Dir     : /home/hwjang/aipd/noahs_ark/piplines/4_rscore_filter
+[INFO] Partition      : cpu-farm
+[INFO] Node List      : node04
+[INFO] Nodes          : 1
+[INFO] CPUs per Task  : 64
+[INFO] Memory (MB)    : 
+[INFO] User           : hwjang
+[INFO] Work Dir       : /home/hwjang/aipd/noahs_ark/piplines/4_rscore_filter
+[INFO] Tasks per Node : 1
+[INFO] Dependency     : 
+[INFO] Allocated GPUs : 
+---------------------------------------------
+[INFO] Job allocated on node(s): node04
+[INFO] Job running on: node04
+=============================================
+
+Processing PDBs:   0%|          | 0/72 [00:00<?, ?it/s]Processing PDBs:   1%|▏         | 1/72 [00:28<34:17, 28.98s/it]Processing PDBs:   3%|▎         | 2/72 [00:29<14:08, 12.13s/it]Processing PDBs:   4%|▍         | 3/72 [00:30<08:07,  7.06s/it]Processing PDBs:   6%|▌         | 4/72 [00:31<05:13,  4.62s/it]Processing PDBs:   7%|▋         | 5/72 [00:31<03:22,  3.02s/it]Processing PDBs:  10%|▉         | 7/72 [00:31<01:43,  1.59s/it]Processing PDBs:  11%|█         | 8/72 [00:31<01:16,  1.20s/it]Processing PDBs:  14%|█▍        | 10/72 [00:32<00:44,  1.39it/s]Processing PDBs:  15%|█▌        | 11/72 [00:32<00:37,  1.63it/s]Processing PDBs:  17%|█▋        | 12/72 [00:32<00:32,  1.87it/s]Processing PDBs:  19%|█▉        | 14/72 [00:32<00:20,  2.80it/s]Processing PDBs:  22%|██▏       | 16/72 [00:33<00:16,  3.46it/s]Processing PDBs:  24%|██▎       | 17/72 [00:33<00:15,  3.63it/s]Processing PDBs:  25%|██▌       | 18/72 [00:33<00:14,  3.62it/s]Processing PDBs:  26%|██▋       | 19/72 [00:33<00:13,  3.84it/s]Processing PDBs:  32%|███▏      | 23/72 [00:34<00:07,  6.55it/s]Processing PDBs:  35%|███▍      | 25/72 [00:34<00:08,  5.65it/s]Processing PDBs:  39%|███▉      | 28/72 [00:34<00:05,  7.52it/s]Processing PDBs:  43%|████▎     | 31/72 [00:35<00:04,  9.40it/s]Processing PDBs:  46%|████▌     | 33/72 [00:35<00:05,  7.11it/s]Processing PDBs:  49%|████▊     | 35/72 [00:35<00:04,  8.05it/s]Processing PDBs:  51%|█████▏    | 37/72 [00:36<00:05,  6.37it/s]Processing PDBs:  53%|█████▎    | 38/72 [00:36<00:05,  6.02it/s]Processing PDBs:  54%|█████▍    | 39/72 [00:36<00:06,  5.19it/s]Processing PDBs:  56%|█████▌    | 40/72 [00:37<00:09,  3.26it/s]Processing PDBs:  57%|█████▋    | 41/72 [00:37<00:09,  3.21it/s]Processing PDBs:  60%|█████▉    | 43/72 [00:37<00:06,  4.74it/s]Processing PDBs:  64%|██████▍   | 46/72 [00:38<00:03,  7.52it/s]Processing PDBs:  67%|██████▋   | 48/72 [00:38<00:03,  7.04it/s]Processing PDBs:  69%|██████▉   | 50/72 [00:38<00:02,  8.09it/s]Processing PDBs:  72%|███████▏  | 52/72 [00:38<00:02,  6.88it/s]Processing PDBs:  74%|███████▎  | 53/72 [00:39<00:02,  6.53it/s]Processing PDBs:  76%|███████▋  | 55/72 [00:39<00:02,  8.21it/s]Processing PDBs:  79%|███████▉  | 57/72 [00:39<00:01, 10.13it/s]Processing PDBs:  82%|████████▏ | 59/72 [00:39<00:01,  7.37it/s]Processing PDBs:  86%|████████▌ | 62/72 [00:40<00:01,  8.43it/s]Processing PDBs:  90%|█████████ | 65/72 [00:40<00:00,  7.71it/s]Processing PDBs:  92%|█████████▏| 66/72 [00:41<00:01,  4.29it/s]Processing PDBs:  94%|█████████▍| 68/72 [00:41<00:00,  5.33it/s]Processing PDBs:  96%|█████████▌| 69/72 [00:41<00:00,  5.58it/s]Processing PDBs:  97%|█████████▋| 70/72 [00:42<00:00,  4.18it/s]Processing PDBs:  99%|█████████▊| 71/72 [00:44<00:00,  1.64it/s]Processing PDBs: 100%|██████████| 72/72 [00:44<00:00,  1.61it/s]Processing PDBs: 100%|██████████| 72/72 [00:44<00:00,  1.61it/s]
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                                 PyRosetta-4                                  │
+│              Created in JHU by Sergey Lyskov and PyRosetta Team              │
+│              (C) Copyright Rosetta Commons Member Institutions               │
+│                                                                              │
+│ NOTE: USE OF PyRosetta FOR COMMERCIAL PURPOSES REQUIRE PURCHASE OF A LICENSE │
+│         See LICENSE.PyRosetta.md or email license@uw.edu for details         │
+└──────────────────────────────────────────────────────────────────────────────┘
+PyRosetta-4 2025 [Rosetta PyRosetta4.Release.python313.ubuntu.cxx11thread.serialization 2025.24+release.8e1e5e54f047b0833dcf760a5cd5d3ce94d63938 2025-06-06T09:20:57] retrieved from: http://www.pyrosetta.org
+
+=============================================
+Sat Aug 2 09:40:53 PM KST 2025
+[INFO] Job finished in 46 seconds

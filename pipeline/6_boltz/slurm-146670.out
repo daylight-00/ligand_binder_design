@@ -1,0 +1,189 @@
+Sun Aug 3 01:04:04 AM KST 2025
+[INFO] Job Information
+=============================================
+[INFO] Job Name       : boltz
+[INFO] Job ID         : 146670
+[INFO] Submit Dir     : /home/hwjang/aipd/noahs_ark/piplines/6_boltz
+[INFO] Partition      : gpu-farm
+[INFO] Node List      : node26
+[INFO] Nodes          : 1
+[INFO] CPUs per Task  : 16
+[INFO] Memory (MB)    : 
+[INFO] User           : hwjang
+[INFO] Work Dir       : /home/hwjang/aipd/noahs_ark/piplines/6_boltz
+[INFO] Tasks per Node : 1
+[INFO] Dependency     : 
+[INFO] Allocated GPUs : 1,2,3,4
+---------------------------------------------
+[INFO] Job allocated on node(s): node26
+[INFO] Job running on: node26
+=============================================
+
+Checking input data.
+Processing 36 inputs with 36 threads.
+  0%|          | 0/36 [00:00<?, ?it/s]Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+Found explicit empty MSA for some proteins, will run these in single sequence mode. Keep in mind that the model predictions will be suboptimal without an MSA.
+  3%|▎         | 1/36 [00:00<00:28,  1.23it/s]  6%|▌         | 2/36 [00:01<00:16,  2.09it/s] 19%|█▉        | 7/36 [00:01<00:03,  8.17it/s] 67%|██████▋   | 24/36 [00:01<00:00, 33.65it/s]100%|██████████| 36/36 [00:01<00:00, 26.67it/s]
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3.12 /home/hwjang/miniforge3/envs/boltz2/bin/boltz pr ...
+Using bfloat16 Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/pytorch_lightning/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `pytorch_lightning` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+Running structure prediction for 36 inputs.
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/pytorch_lightning/utilities/migration/utils.py:56: The loaded checkpoint was produced with Lightning v2.5.0.post0, which is newer than your current Lightning version: v2.5.0
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/9 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/9 [00:00<?, ?it/s]Predicting DataLoader 0:  11%|█         | 1/9 [00:08<01:07,  0.12it/s]Predicting DataLoader 0:  22%|██▏       | 2/9 [00:14<00:50,  0.14it/s]Predicting DataLoader 0:  33%|███▎      | 3/9 [00:20<00:40,  0.15it/s]Predicting DataLoader 0:  44%|████▍     | 4/9 [00:25<00:32,  0.15it/s]Predicting DataLoader 0:  56%|█████▌    | 5/9 [00:31<00:25,  0.16it/s]Predicting DataLoader 0:  67%|██████▋   | 6/9 [00:37<00:18,  0.16it/s]Predicting DataLoader 0:  78%|███████▊  | 7/9 [00:43<00:12,  0.16it/s]Predicting DataLoader 0:  89%|████████▉ | 8/9 [00:48<00:06,  0.16it/s]Predicting DataLoader 0: 100%|██████████| 9/9 [00:54<00:00,  0.17it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 9/9 [00:54<00:00,  0.17it/s]
+Number of failed examples: 0
+[rank2]:[W803 01:05:40.386353818 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=80, addr=[localhost]:36374, remote=[localhost]:47549): failed to recv, got 0 bytes
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:678 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fba084f25e8 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fba4810fbfe in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5baaf40 (0x7fba48111f40 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bab84a (0x7fba4811284a in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7fba4810c2a9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7fba0980b9f9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xe16e3 (0x7fb9f97c66e3 in /opt/ohpc/pub/compiler/gcc/12.2.0/lib64/libstdc++.so.6)
+frame #7: <unknown function> + 0x89c02 (0x7fba6d3dbc02 in /lib64/libc.so.6)
+frame #8: <unknown function> + 0x10ec40 (0x7fba6d460c40 in /lib64/libc.so.6)
+
+[rank3]:[W803 01:05:40.386353800 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=82, addr=[localhost]:36372, remote=[localhost]:47549): failed to recv, got 0 bytes
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:678 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fba084f25e8 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fba4810fbfe in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5baaf40 (0x7fba48111f40 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bab84a (0x7fba4811284a in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7fba4810c2a9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7fba0980b9f9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xe16e3 (0x7fb9f97c66e3 in /opt/ohpc/pub/compiler/gcc/12.2.0/lib64/libstdc++.so.6)
+frame #7: <unknown function> + 0x89c02 (0x7fba6d3dbc02 in /lib64/libc.so.6)
+frame #8: <unknown function> + 0x10ec40 (0x7fba6d460c40 in /lib64/libc.so.6)
+
+[rank2]:[W803 01:05:40.391545210 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0(default_pg) Rank 2] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: failed to recv, got 0 bytes
+[rank3]:[W803 01:05:40.391546288 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0(default_pg) Rank 3] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: failed to recv, got 0 bytes
+Number of failed examples: 0
+[rank3]:[W803 01:05:41.391698188 TCPStore.cpp:106] [c10d] sendBytes failed on SocketImpl(fd=82, addr=[localhost]:36372, remote=[localhost]:47549): Broken pipe
+Exception raised from sendBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:653 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fba084f25e8 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fba4810fbfe in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5baa458 (0x7fba48111458 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5babc3e (0x7fba48112c3e in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x298 (0x7fba4810c298 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7fba0980b9f9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xe16e3 (0x7fb9f97c66e3 in /opt/ohpc/pub/compiler/gcc/12.2.0/lib64/libstdc++.so.6)
+frame #7: <unknown function> + 0x89c02 (0x7fba6d3dbc02 in /lib64/libc.so.6)
+frame #8: <unknown function> + 0x10ec40 (0x7fba6d460c40 in /lib64/libc.so.6)
+
+[rank3]:[W803 01:05:41.396393769 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0(default_pg) Rank 3] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Broken pipe
+Number of failed examples: 0
+
+Predicting property: affinity
+
+Checking input data for affinity.
+Running affinity prediction for 36 inputs.
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/4
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+You are using a CUDA device ('NVIDIA H100 80GB HBM3') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/4
+Initializing distributed: GLOBAL_RANK: 2, MEMBER: 3/4
+Initializing distributed: GLOBAL_RANK: 3, MEMBER: 4/4
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 4 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 2 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 3 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+/home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/9 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/9 [00:00<?, ?it/s]Predicting DataLoader 0:  11%|█         | 1/9 [00:07<00:58,  0.14it/s]Predicting DataLoader 0:  22%|██▏       | 2/9 [00:13<00:47,  0.15it/s]Predicting DataLoader 0:  33%|███▎      | 3/9 [00:19<00:39,  0.15it/s]Predicting DataLoader 0:  44%|████▍     | 4/9 [00:26<00:33,  0.15it/s]Predicting DataLoader 0:  56%|█████▌    | 5/9 [00:32<00:26,  0.15it/s]Predicting DataLoader 0:  67%|██████▋   | 6/9 [00:39<00:19,  0.15it/s]Predicting DataLoader 0:  78%|███████▊  | 7/9 [00:46<00:13,  0.15it/s]Predicting DataLoader 0:  89%|████████▉ | 8/9 [00:52<00:06,  0.15it/s]Predicting DataLoader 0: 100%|██████████| 9/9 [00:58<00:00,  0.15it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 9/9 [00:58<00:00,  0.15it/s]Number of failed examples: 0
+
+Number of failed examples: 0
+[rank2]:[W803 01:07:10.959352301 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=88, addr=[localhost]:54774, remote=[localhost]:47549): failed to recv, got 0 bytes
+Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:678 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7fba084f25e8 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x5ba8bfe (0x7fba4810fbfe in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: <unknown function> + 0x5baaf40 (0x7fba48111f40 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: <unknown function> + 0x5bab84a (0x7fba4811284a in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7fba4810c2a9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7fba0980b9f9 in /home/hwjang/miniforge3/envs/boltz2/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: <unknown function> + 0xe16e3 (0x7fb9f97c66e3 in /opt/ohpc/pub/compiler/gcc/12.2.0/lib64/libstdc++.so.6)
+frame #7: <unknown function> + 0x89c02 (0x7fba6d3dbc02 in /lib64/libc.so.6)
+frame #8: <unknown function> + 0x10ec40 (0x7fba6d460c40 in /lib64/libc.so.6)
+
+[rank2]:[W803 01:07:10.964678374 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0(default_pg) Rank 2] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: failed to recv, got 0 bytes
+Number of failed examples: 0
+
+=============================================
+Sun Aug 3 01:07:12 AM KST 2025
+[INFO] Job finished in 188 seconds

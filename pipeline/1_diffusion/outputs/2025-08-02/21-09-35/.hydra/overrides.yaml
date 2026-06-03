@@ -1,0 +1,9 @@
+- inference.ckpt_path=/home/hwjang/aipd/rf_diffusion_all_atom/RFDiffusionAA_paper_weights.pt
+- inference.deterministic=False
+- diffuser.T=30
+- inference.output_prefix=output/result
+- inference.input_pdb=../0_params/PHT.pdb
+- contigmap.contigs=['100-130']
+- inference.ligand=PHT
+- inference.num_designs=8
+- inference.design_startnum=32

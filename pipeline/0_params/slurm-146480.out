@@ -1,0 +1,27 @@
+Sat Aug 2 09:02:34 PM KST 2025
+[INFO] Job Information
+=============================================
+[INFO] Job Name       : params
+[INFO] Job ID         : 146480
+[INFO] Submit Dir     : /home/hwjang/aipd/noahs_ark/piplines/0_params
+[INFO] Partition      : cpu-farm
+[INFO] Node List      : node02
+[INFO] Nodes          : 1
+[INFO] CPUs per Task  : 1
+[INFO] Memory (MB)    : 
+[INFO] User           : hwjang
+[INFO] Work Dir       : /home/hwjang/aipd/noahs_ark/piplines/0_params
+[INFO] Tasks per Node : 2
+[INFO] Dependency     : 
+[INFO] Allocated GPUs : 
+---------------------------------------------
+[INFO] Job allocated on node(s): node02
+[INFO] Job running on: node02
+=============================================
+
+Renaming ligand residue name as PHT
+PHT.mol2
+
+=============================================
+Sat Aug 2 09:02:35 PM KST 2025
+[INFO] Job finished in 1 seconds

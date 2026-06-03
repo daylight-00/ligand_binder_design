@@ -1,0 +1,256 @@
+Sat Aug 2 10:06:21 PM KST 2025
+[INFO] Job Information
+=============================================
+[INFO] Job Name       : af3_inf
+[INFO] Job ID         : 146603
+[INFO] Submit Dir     : /home/hwjang/aipd/noahs_ark/piplines/5_af3
+[INFO] Partition      : gpu-farm
+[INFO] Node List      : node26
+[INFO] Nodes          : 1
+[INFO] CPUs per Task  : 4
+[INFO] Memory (MB)    : 
+[INFO] User           : hwjang
+[INFO] Work Dir       : /home/hwjang/aipd/noahs_ark/piplines/5_af3
+[INFO] Tasks per Node : 1
+[INFO] Dependency     : 
+[INFO] Allocated GPUs : 3
+---------------------------------------------
+[INFO] Job allocated on node(s): node26
+[INFO] Job running on: node26
+=============================================
+
+I0802 22:06:25.822482 140649110701888 xla_bridge.py:895] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+I0802 22:06:25.823594 140649110701888 xla_bridge.py:895] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2025-08-02 22:06:25.902681: W external/xla/xla/service/gpu/nvptx_compiler.cc:930] The NVIDIA driver's CUDA version is 12.5 which is older than the PTX compiler version 12.6.77. Because the driver is older than the PTX compiler version, XLA is disabling parallel compilation, which may slow down compilation. You should update your NVIDIA driver or use the NVIDIA-provided CUDA forward compatibility packages.
+I0802 22:06:32.730690 140649110701888 pipeline.py:164] processing result_10_packed_4_1, random_seed=1
+I0802 22:06:32.741746 140649110701888 pipeline.py:257] Calculating bucket size for input with 125 tokens.
+I0802 22:06:32.742005 140649110701888 pipeline.py:263] Got bucket size 256 for input with 125 tokens, resulting in 131 padded tokens.
+I0802 22:06:33.237211 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:06:33.720019 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:06.374068 140649110701888 pipeline.py:164] processing result_16_packed_2_1, random_seed=1
+I0802 22:07:06.385102 140649110701888 pipeline.py:257] Calculating bucket size for input with 129 tokens.
+I0802 22:07:06.385227 140649110701888 pipeline.py:263] Got bucket size 256 for input with 129 tokens, resulting in 127 padded tokens.
+I0802 22:07:06.971768 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:07.516511 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:12.564890 140649110701888 pipeline.py:164] processing result_29_packed_6_1, random_seed=1
+I0802 22:07:12.574470 140649110701888 pipeline.py:257] Calculating bucket size for input with 124 tokens.
+I0802 22:07:12.574591 140649110701888 pipeline.py:263] Got bucket size 256 for input with 124 tokens, resulting in 132 padded tokens.
+I0802 22:07:13.131842 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:13.655291 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:18.703197 140649110701888 pipeline.py:164] processing result_55_packed_1_1, random_seed=1
+I0802 22:07:18.712588 140649110701888 pipeline.py:257] Calculating bucket size for input with 125 tokens.
+I0802 22:07:18.712699 140649110701888 pipeline.py:263] Got bucket size 256 for input with 125 tokens, resulting in 131 padded tokens.
+I0802 22:07:19.279286 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:19.825076 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:24.868832 140649110701888 pipeline.py:164] processing result_55_packed_5_1, random_seed=1
+I0802 22:07:24.877916 140649110701888 pipeline.py:257] Calculating bucket size for input with 125 tokens.
+I0802 22:07:24.878435 140649110701888 pipeline.py:263] Got bucket size 256 for input with 125 tokens, resulting in 131 padded tokens.
+I0802 22:07:25.404172 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:25.917299 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:30.962910 140649110701888 pipeline.py:164] processing result_59_packed_7_1, random_seed=1
+I0802 22:07:30.972293 140649110701888 pipeline.py:257] Calculating bucket size for input with 129 tokens.
+I0802 22:07:30.972400 140649110701888 pipeline.py:263] Got bucket size 256 for input with 129 tokens, resulting in 127 padded tokens.
+I0802 22:07:31.559415 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:32.094479 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:37.141114 140649110701888 pipeline.py:164] processing result_7_packed_1_1, random_seed=1
+I0802 22:07:37.151193 140649110701888 pipeline.py:257] Calculating bucket size for input with 144 tokens.
+I0802 22:07:37.151301 140649110701888 pipeline.py:263] Got bucket size 256 for input with 144 tokens, resulting in 112 padded tokens.
+I0802 22:07:37.820374 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:38.466869 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:43.555036 140649110701888 pipeline.py:164] processing result_7_packed_4_1, random_seed=1
+I0802 22:07:43.565332 140649110701888 pipeline.py:257] Calculating bucket size for input with 144 tokens.
+I0802 22:07:43.565447 140649110701888 pipeline.py:263] Got bucket size 256 for input with 144 tokens, resulting in 112 padded tokens.
+I0802 22:07:44.231975 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:44.875645 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:49.954900 140649110701888 pipeline.py:164] processing result_7_packed_8_1, random_seed=1
+I0802 22:07:49.965134 140649110701888 pipeline.py:257] Calculating bucket size for input with 144 tokens.
+I0802 22:07:49.965234 140649110701888 pipeline.py:263] Got bucket size 256 for input with 144 tokens, resulting in 112 padded tokens.
+I0802 22:07:50.651090 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+I0802 22:07:51.285083 140649110701888 features.py:1518] Using SMILES for: LIG_B - C1=CC=C(C=C1)C2(C(=O)NC(=O)N2)C3=CC=CC=C3
+
+Running AlphaFold 3. Please note that standard AlphaFold 3 model parameters are
+only available under terms of use provided at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+If you do not agree to these terms and are using AlphaFold 3 derived model
+parameters, cancel execution of AlphaFold 3 inference with CTRL-C, and do not
+use the model parameters.
+
+Found local devices: [CudaDevice(id=0)], using device 0: cuda:0
+Building model from scratch...
+Checking that model parameters can be loaded...
+
+Running fold job result_10_packed_4_1...
+Output will be written in output/result_10_packed_4_1
+Skipping data pipeline...
+Writing model input JSON to output/result_10_packed_4_1/result_10_packed_4_1_data.json
+Predicting 3D structure for result_10_packed_4_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.01 seconds.
+Featurising data with 1 seed(s) took 5.26 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 32.46 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.10 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 32.55 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_10_packed_4_1 done, output written to output/result_10_packed_4_1
+
+
+Running fold job result_16_packed_2_1...
+Output will be written in output/result_16_packed_2_1
+Skipping data pipeline...
+Writing model input JSON to output/result_16_packed_2_1/result_16_packed_2_1_data.json
+Predicting 3D structure for result_16_packed_2_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.16 seconds.
+Featurising data with 1 seed(s) took 1.16 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.10 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.95 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_16_packed_2_1 done, output written to output/result_16_packed_2_1
+
+
+Running fold job result_29_packed_6_1...
+Output will be written in output/result_29_packed_6_1
+Skipping data pipeline...
+Writing model input JSON to output/result_29_packed_6_1/result_29_packed_6_1_data.json
+Predicting 3D structure for result_29_packed_6_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.12 seconds.
+Featurising data with 1 seed(s) took 1.12 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.09 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.94 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_29_packed_6_1 done, output written to output/result_29_packed_6_1
+
+
+Running fold job result_55_packed_1_1...
+Output will be written in output/result_55_packed_1_1
+Skipping data pipeline...
+Writing model input JSON to output/result_55_packed_1_1/result_55_packed_1_1_data.json
+Predicting 3D structure for result_55_packed_1_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.15 seconds.
+Featurising data with 1 seed(s) took 1.15 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.09 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.94 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_55_packed_1_1 done, output written to output/result_55_packed_1_1
+
+
+Running fold job result_55_packed_5_1...
+Output will be written in output/result_55_packed_5_1
+Skipping data pipeline...
+Writing model input JSON to output/result_55_packed_5_1/result_55_packed_5_1_data.json
+Predicting 3D structure for result_55_packed_5_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.07 seconds.
+Featurising data with 1 seed(s) took 1.07 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.09 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.94 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_55_packed_5_1 done, output written to output/result_55_packed_5_1
+
+
+Running fold job result_59_packed_7_1...
+Output will be written in output/result_59_packed_7_1
+Skipping data pipeline...
+Writing model input JSON to output/result_59_packed_7_1/result_59_packed_7_1_data.json
+Predicting 3D structure for result_59_packed_7_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.15 seconds.
+Featurising data with 1 seed(s) took 1.15 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.10 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.94 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_59_packed_7_1 done, output written to output/result_59_packed_7_1
+
+
+Running fold job result_7_packed_1_1...
+Output will be written in output/result_7_packed_1_1
+Skipping data pipeline...
+Writing model input JSON to output/result_7_packed_1_1/result_7_packed_1_1_data.json
+Predicting 3D structure for result_7_packed_1_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.35 seconds.
+Featurising data with 1 seed(s) took 1.35 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.12 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.97 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_7_packed_1_1 done, output written to output/result_7_packed_1_1
+
+
+Running fold job result_7_packed_4_1...
+Output will be written in output/result_7_packed_4_1
+Skipping data pipeline...
+Writing model input JSON to output/result_7_packed_4_1/result_7_packed_4_1_data.json
+Predicting 3D structure for result_7_packed_4_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.34 seconds.
+Featurising data with 1 seed(s) took 1.34 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.11 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.96 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_7_packed_4_1 done, output written to output/result_7_packed_4_1
+
+
+Running fold job result_7_packed_8_1...
+Output will be written in output/result_7_packed_8_1
+Skipping data pipeline...
+Writing model input JSON to output/result_7_packed_8_1/result_7_packed_8_1_data.json
+Predicting 3D structure for result_7_packed_8_1 with 1 seed(s)...
+Featurising data with 1 seed(s)...
+Featurising data with seed 1.
+Featurising data with seed 1 took 1.35 seconds.
+Featurising data with 1 seed(s) took 1.35 seconds.
+Running model inference and extracting output structure samples with 1 seed(s)...
+Running model inference with seed 1...
+Running model inference with seed 1 took 4.85 seconds.
+Extracting inference results with seed 1...
+Extracting 5 inference samples with seed 1 took 0.12 seconds.
+Running model inference and extracting output structures with 1 seed(s) took 4.98 seconds.
+Writing outputs with 1 seed(s)...
+Fold job result_7_packed_8_1 done, output written to output/result_7_packed_8_1
+
+Done running 9 fold jobs.
+
+=============================================
+Sat Aug 2 10:07:59 PM KST 2025
+[INFO] Job finished in 98 seconds
