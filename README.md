@@ -14,7 +14,7 @@ This repository emphasizes:
 
 ## Workflow Overview
 
-The main workflow is organized under `pipline/` and follows nine sequential stages.
+The main workflow is organized under `pipeline/` and follows nine sequential stages.
 
 1. **Parameters Setup** (`0_params/`) - Ligand preparation and Rosetta parameter generation
 2. **Backbone Sampling** (`1_diffusion/`) - Diffusion-based backbone generation
@@ -80,6 +80,11 @@ Several lab-provided scripts were refactored or extended for more robust campaig
 - updated structure parsing with modern Python libraries where appropriate;
 - Biopython/RDKit-based ligand and structure handling for RMSD workflows;
 - parquet-based data handling for large candidate sets.
+
+## Repository layout
+
+- **`main`** — pipeline code, ligand-setup inputs, and phenytoin example run (final filtered table, joined metric-lineage table, and example RMSD structures).
+- **`archive/example-run`** — the same phenytoin example run, with all of its outputs, prediction results, and run logs.
 
 ## Requirements
 

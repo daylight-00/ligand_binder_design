@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Example-run outputs (preserved on the `archive/example-run` branch) ---
+# main carries pipeline code + one small-N phenytoin example.
+# The example run's full outputs (logs, archives, intermediate tables,
+# prediction outputs) live on archive/example-run.
+*.out
+*.tgz
+*.cif
+*.parquet
+*.csv
+*.json
+**/outputs/
+**/yaml/
+# Keep the two representative example tables on main:
+!pipeline/8_rmsd_filter/lmpnn_filt_data_added.parquet
+!pipeline/8_rmsd_filter/rmsd_filtered_abb_pht.csv
